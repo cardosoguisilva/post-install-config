@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+<h1>osTicket: Post-Installation Configuration</h1>
 In this tutorial I will be showing you the prerequisites and installation proccess of osTicket, an open-source ticketing system.<br />
 
 
