@@ -3,9 +3,7 @@
 </p>
 
 <h1>osTicket: Post-Installation Configuration</h1>
-In this tutorial I will be showing you the prerequisites and installation proccess of osTicket, an open-source ticketing system.<br />
-
-
+In this tutorial I will be showing you the Post-Installation steps you should take in order to configure OsTicket.<br />
 
 
 
@@ -18,7 +16,6 @@ In this tutorial I will be showing you the prerequisites and installation procce
 <ul>
 <li>Microsoft Azure (Virtual Machines/Compute)</li>
 <li>Remote Desktop</li>
-<li>Internet Information Services (IIS)</li>
 </ul> 
 
 <h2>Operating Systems Used </h2>
@@ -27,15 +24,14 @@ In this tutorial I will be showing you the prerequisites and installation procce
 
 <h2>List of Prerequisites</h2>
 
-- Create Virtual Machine in Azure
-- Install / Enable IIS in Windows with CGI and Common HTTP Features
-- Download and Install Necessary Files
+- Installed OsTicket
+- 
 
-<h2>Installation Steps</h2>
+<h2>Configuration Steps</h2>
 <h4>Step 1</h4>
 <p>
   <ul>
-    <li>Create an Azure Virtual Machine Windows 10, 4 vCPUs. Username and password of your choice.</li>
+    <li>Log into your virtual machine and open OsTicket <a href="[https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6](http://localhost/osTicket/scp/login.php)">OsTicket</a> </li>
     </ul> 
 </p>
 <br />
