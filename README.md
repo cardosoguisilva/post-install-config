@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket: Post-Installation Configuration</h1>
-In this tutorial I will be showing you the Post-Installation steps you should take in order to configure OsTicket. We will create Agents, Users, Teams, Departments and SLA, in order to learn the capabilities of OsTicket. <br />
+In this tutorial I will be showing you the Post-Installation steps of OsTicket. We will create Agents, Users, Teams, Departments and SLAs, in order to learn the capabilities of OsTicket. <br />
 
 
 
@@ -33,39 +33,78 @@ In this tutorial I will be showing you the Post-Installation steps you should ta
     <li>Log into your virtual machine and <a href="http://localhost/osTicket/scp/login.php">OsTicket</a> </li>
     </ul> 
 </p>
-<br />
+
 
 ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/765f6c3b-557e-4e7e-b958-1641c62ac118)
 
 <h4>Step 2</h4>
 <p>
-  <ol type= "1">
-    <li> - Configuring agent roles https://docs.osticket.com/en/latest/Admin/Agents/Roles.html
-    - Go to Admin Panel -> Agents -> Roles, make yourself "Supreme Admin" by selecting all boxes in Tickets, Tasks and Knowlegdebase.
-  
-  ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/8ce94b43-2a8d-40aa-b9fb-c2400b60ee7d)
+  <ol type="1">
+    <li> Configuring agent roles https://docs.osticket.com/en/latest/Admin/Agents/Roles.html</li>
+  <ul> 
+    <li> Go to Admin Panel -> Agents -> Roles</li>
+    <li> Create "Supreme Admin" by selecting all boxes in Tickets, Tasks and Knowlegdebase.</li> </ul> 
+  <br> </ol> 
     
-
-
-- configuring departments https://docs.osticket.com/en/latest/Admin/Agents/Departments.html
-- go to Admin Panel -> Agents -> Departments and create a new department called System ADM with system default.
-
+![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/8ce94b43-2a8d-40aa-b9fb-c2400b60ee7d)
+</p>
+<p>    
+  <ol start="2">
+    <li> Configuring departments https://docs.osticket.com/en/latest/Admin/Agents/Departments.html </li>
+  <ul>
+    <li> Go to Admin Panel -> Agents -> Departments </li>
+    <li> Create a new department called System ADMIN with system default.</li>
+<br> </ol>
+  
 ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/ce0ba838-c872-4675-b42d-546728800e3f)
-
-
-- configuring teams https://docs.osticket.com/en/latest/Admin/Agents/Teams.html
-- go to Admin Panel -> Agents -> Teams and create a new team " LEVEL II Support"
+</p>
+<p>
+<ol start="3">
+<li>configuring teams https://docs.osticket.com/en/latest/Admin/Agents/Teams.html</li>
+  <ul>
+    <li>Go to Admin Panel -> Agents -> Teams</li>
+    <li>Create a new team " LEVEL II Support"</li>
+    </ol> <br>
 
 ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/d779666d-8b9c-4c2a-99cb-bebd81332ef3)
-
-
-- now we're going to allow anyone to create a ticket.
-- Admin Panel -> Settings -> User
-- by default "Registration Required: Require registration and login to create tickets" should be unchecked. This will allow people to make ticekts anonymously 
-
+</p>
+<p>
+<ol start="4">
+<li>now we're going to allow anyone to create a ticket.</li>
+  <ul>
+    <li> Admin Panel -> Settings -> User</li>
+    <li>By default "Registration Required: Require registration and login to create tickets" should be unchecked. This will allow people to make ticekts anonymously.</li>
+    </ol> <br>
+ 
 ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/50b00f10-eff0-4da2-974c-eb0506641556)
+</p>
+<p>
+<ol start="4">
+<li></li>
+  <ul>
+    <li> </li>
+    <li></li>
+    </ol> <br>
+</p>
+<p>
+<ol start="5">
+<li>Now to create Agents https://docs.osticket.com/en/latest/Admin/Agents/Agents.html</li>
+  <ul>
+    <li>Admin Panel -> Agents -> Add New</li>
+    <li>add multiple agents create a username and password for each agent, write it down in case you forget.</li>
+    </ol> <br>
+![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/15fe89c2-435b-48e1-9297-ed0da6c0a90d)
+</p>
 
-- Now to create Agents https://docs.osticket.com/en/latest/Admin/Agents/Agents.html
+<p>
+<ol start="4">
+<li></li>
+  <ul>
+    <li> </li>
+    <li></li>
+    </ol> <br>
+</p>
+    
 -  Admin Panel -> Agents -> Add New add multiple agents create a username and password for each agent, write it down in case you forget. 
 ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/15fe89c2-435b-48e1-9297-ed0da6c0a90d)
 - unselect "Send the agent a password reset email" and  "Require password change at next login"
