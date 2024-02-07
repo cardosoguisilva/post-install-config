@@ -30,17 +30,16 @@ In this tutorial I will be showing you the Post-Installation steps of osTicket. 
 <h4>Step 1</h4>
 <p>
   <ul>
-    <li>Log into your virtual machine and <a href="http://localhost/osTicket/scp/login.php">OsTicket</a> </li>
+    <li>Log into your virtual machine and osTicket, use this URL http://localhost/osTicket/scp/login.php </li>
     </ul> 
 </p>
-
 
 ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/765f6c3b-557e-4e7e-b958-1641c62ac118)
 
 <h4>Step 2</h4>
 <p>
-  <ol type="1">
-    <li> Configuring agent roles https://docs.osticket.com/en/latest/Admin/Agents/Roles.html</li>
+  <ol type="1"> 
+    <li> Configuring agent <a href="https://docs.osticket.com/en/latest/Admin/Agents/Roles.html">ROLES</a> </li>
   <ul> 
     <li> Go to Admin Panel -> Agents -> Roles</li>
     <li> Create "Supreme Admin" by selecting all boxes in Tickets, Tasks and Knowlegdebase.</li> </ul> 
@@ -50,8 +49,8 @@ In this tutorial I will be showing you the Post-Installation steps of osTicket. 
 </p>
 <p>    
   <ol start="2">
-    <li> Configuring departments https://docs.osticket.com/en/latest/Admin/Agents/Departments.html </li>
-  <ul>
+    <li> Configuring <a href="https://docs.osticket.com/en/latest/Admin/Agents/Departments.html">DEPARTMENTS</a> </li>
+  <ul> 
     <li> Go to Admin Panel -> Agents -> Departments </li>
     <li> Create a new department called System ADMIN with system default.</li>
 <br> </ol>
@@ -60,7 +59,7 @@ In this tutorial I will be showing you the Post-Installation steps of osTicket. 
 </p>
 <p>
 <ol start="3">
-<li>Configuring teams https://docs.osticket.com/en/latest/Admin/Agents/Teams.html</li>
+<li>Configuring <a href="https://docs.osticket.com/en/latest/Admin/Agents/Teams.html">TEAMS</a> </li>
   <ul>
     <li>Go to Admin Panel -> Agents -> Teams</li>
     <li>Create a new team " LEVEL II Support"</li>
@@ -80,7 +79,7 @@ In this tutorial I will be showing you the Post-Installation steps of osTicket. 
 </p>
 <p>
 <ol start="5">
-<li>Creating Agents https://docs.osticket.com/en/latest/Admin/Agents/Agents.html</li>
+<li>Creating <a href="https://docs.osticket.com/en/latest/Admin/Agents/Agents.html">AGENTS</a></li>
   <ul>
     <li>Admin Panel -> Agents -> Add New</li>
     <li>Add multiple agents create a username and password for each agent, write it down in case you forget.</li>
@@ -96,7 +95,7 @@ In this tutorial I will be showing you the Post-Installation steps of osTicket. 
 
 <p>
 <ol start="6">
-<li>Configure Users https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html</li>
+<li>Configure <a href="https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html">USERS</a> </li>
   <ul>
     <li>Click on Agent Panel -> Users -> Add New </li>
     <li>Create two users.</li>
@@ -111,7 +110,7 @@ In this tutorial I will be showing you the Post-Installation steps of osTicket. 
 
 <p>
 <ol start="7">
-<li>Configure SLA https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html</li>
+<li>Configure <a href="https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html">SLA</a> </li>
   <ul>
     <li>Admin Panel -> Manage -> SLA -> Add New SLA Plan</li>
 
@@ -125,7 +124,7 @@ In this tutorial I will be showing you the Post-Installation steps of osTicket. 
 
 <p>
 <ol start="8">
-<li>Configure Help Topics https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html</li>
+<li>Configure <a href="https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html">HELP TOPICS</a> </li>
   <ul>
     <li>Admin Panel -> Manage -> Help Topics</li>
     <li>Create these four Help Topics</li>
