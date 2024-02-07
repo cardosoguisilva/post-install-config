@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket: Post-Installation Configuration</h1>
-In this tutorial I will be showing you the Post-Installation steps of OsTicket. We will create Agents, Users, Teams, Departments and SLAs, in order to learn the capabilities of OsTicket. <br />
+In this tutorial I will be showing you the Post-Installation steps of osTicket. We will create Agents, Users, Teams, Departments and SLAs, in order to learn the capabilities of it. <br />
 
 
 
@@ -24,7 +24,7 @@ In this tutorial I will be showing you the Post-Installation steps of OsTicket. 
 
 <h2>List of Prerequisites</h2>
 
-- Installed OsTicket
+- osTicket Installed
 
 <h2>Configuration Steps</h2>
 <h4>Step 1</h4>
@@ -60,7 +60,7 @@ In this tutorial I will be showing you the Post-Installation steps of OsTicket. 
 </p>
 <p>
 <ol start="3">
-<li>configuring teams https://docs.osticket.com/en/latest/Admin/Agents/Teams.html</li>
+<li>Configuring teams https://docs.osticket.com/en/latest/Admin/Agents/Teams.html</li>
   <ul>
     <li>Go to Admin Panel -> Agents -> Teams</li>
     <li>Create a new team " LEVEL II Support"</li>
@@ -70,72 +70,76 @@ In this tutorial I will be showing you the Post-Installation steps of OsTicket. 
 </p>
 <p>
 <ol start="4">
-<li>now we're going to allow anyone to create a ticket.</li>
+<li>Allowing anyone to create a ticket.</li>
   <ul>
-    <li> Admin Panel -> Settings -> User</li>
+    <li>Admin Panel -> Settings -> User</li>
     <li>By default "Registration Required: Require registration and login to create tickets" should be unchecked. This will allow people to make ticekts anonymously.</li>
     </ol> <br>
  
 ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/50b00f10-eff0-4da2-974c-eb0506641556)
 </p>
 <p>
-<ol start="4">
-<li></li>
-  <ul>
-    <li> </li>
-    <li></li>
-    </ol> <br>
-</p>
-<p>
 <ol start="5">
-<li>Now to create Agents https://docs.osticket.com/en/latest/Admin/Agents/Agents.html</li>
+<li>Creating Agents https://docs.osticket.com/en/latest/Admin/Agents/Agents.html</li>
   <ul>
     <li>Admin Panel -> Agents -> Add New</li>
-    <li>add multiple agents create a username and password for each agent, write it down in case you forget.</li>
+    <li>Add multiple agents create a username and password for each agent, write it down in case you forget.</li>
+     <li>Make sure to select Access/Permissions/Teams for each agent.</li>
+
+  ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/15fe89c2-435b-48e1-9297-ed0da6c0a90d)
+    <li>Unselect "Send the agent a password reset email" and "Require password change at next login"</li>
+    
+  ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/c3ea4f16-68bb-44d5-971a-324673ca8790)
     </ol> <br>
-![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/15fe89c2-435b-48e1-9297-ed0da6c0a90d)
+    
 </p>
 
 <p>
-<ol start="4">
-<li></li>
+<ol start="6">
+<li>Configure Users https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html</li>
   <ul>
-    <li> </li>
-    <li></li>
-    </ol> <br>
-</p>
+    <li>Click on Agent Panel -> Users -> Add New </li>
+    <li>Create two users.</li>
     
--  Admin Panel -> Agents -> Add New add multiple agents create a username and password for each agent, write it down in case you forget. 
-![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/15fe89c2-435b-48e1-9297-ed0da6c0a90d)
-- unselect "Send the agent a password reset email" and  "Require password change at next login"
-![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/c3ea4f16-68bb-44d5-971a-324673ca8790)
-- make sure to select Access/Permissions/Teams for each agent.
+- Karen
+- Ken
 
-- Configure Users https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html
-- Click on Agent Panel -> Users -> Add New create two users.
 ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/b4b97d75-00e6-4ab9-9eb4-bb346924ab63)
-
-- Configure SLA https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html
-- Admin Panel -> Manage -> SLA -> Add New SLA Plan
--Sev-A (1 hour, 24/7)
-Sev-B (4 hours, 24/7)
-Sev-C (8 hours, business hours) 
-![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/33eb5d63-e335-4f84-94cd-9d977a1d35bf)
-
-- Configure Help Topics https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html
-- Admin Panel -> Manage -> Help Topics
-- Business Critical Outage
-Personal Computer Issues
-Equipment Request
-Password Reset
-
-![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/996c8f99-b1b4-409a-88a7-e21f4e33cf2d)
+  </ol> <br>
+</p>    
 
 
-    </li>
-    </ol>
- 
-</p>
+<p>
+<ol start="7">
+<li>Configure SLA https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html</li>
+  <ul>
+    <li>Admin Panel -> Manage -> SLA -> Add New SLA Plan</li>
+
+- Sev-A (1 hour, 24/7)
+- Sev-B (4 hours, 24/7)
+- Sev-C (8 hours, business hours) 
+    </ol> <br>
+    
+    ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/33eb5d63-e335-4f84-94cd-9d977a1d35bf)
+</p>  
+
+<p>
+<ol start="8">
+<li>Configure Help Topics https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html</li>
+  <ul>
+    <li>Admin Panel -> Manage -> Help Topics</li>
+    <li>Create these four Help Topics</li>
+
+  - Business Critical Outage
+  - Personal Computer Issues
+  - Equipment Request
+  - Password Reset
+  
+    </ol> <br>
+    
+    ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/996c8f99-b1b4-409a-88a7-e21f4e33cf2d)
+</p>  
+    
 
 
 
