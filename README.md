@@ -9,7 +9,7 @@ In this tutorial I will be showing you the Post-Installation steps of osTicket. 
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+- ### [YouTube: Post-Installation Configuration](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
