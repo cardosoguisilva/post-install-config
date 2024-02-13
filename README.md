@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket: Post-Installation Configuration</h1>
-In this tutorial I will be showing you the Post-Installation steps of osTicket. We will create Agents, Users, Teams, Departments and SLAs, in order to learn the capabilities of it. <br />
+In this tutorial, I will be showing you the Post-Installation steps of osTicket. We will create Agents, Users, Teams, Departments, and SLAs in order to learn their capabilities. <br />
 
 
 
@@ -42,7 +42,7 @@ In this tutorial I will be showing you the Post-Installation steps of osTicket. 
     <li> Configuring agent <a href="https://docs.osticket.com/en/latest/Admin/Agents/Roles.html">ROLES</a> </li>
   <ul> 
     <li> Go to Admin Panel -> Agents -> Roles</li>
-    <li> Create "Supreme Admin" by selecting all boxes in Tickets, Tasks and Knowlegdebase.</li> </ul> 
+    <li> Create "Supreme Admin" by selecting all boxes in Tickets, Tasks, and Knowledgebase.</li> </ul> 
   <br> </ol> 
     
 ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/8ce94b43-2a8d-40aa-b9fb-c2400b60ee7d)
@@ -72,7 +72,7 @@ In this tutorial I will be showing you the Post-Installation steps of osTicket. 
 <li>Allowing anyone to create a ticket.</li>
   <ul>
     <li>Admin Panel -> Settings -> User</li>
-    <li>By default "Registration Required: Require registration and login to create tickets" should be unchecked. This will allow people to make ticekts anonymously.</li>
+    <li>By default, "Registration Required: Require registration and login to create tickets" should be unchecked. This will allow people to make tickets anonymously.</li>
     </ol> <br>
  
 ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/50b00f10-eff0-4da2-974c-eb0506641556)
@@ -82,7 +82,7 @@ In this tutorial I will be showing you the Post-Installation steps of osTicket. 
 <li>Creating <a href="https://docs.osticket.com/en/latest/Admin/Agents/Agents.html">AGENTS</a></li>
   <ul>
     <li>Admin Panel -> Agents -> Add New</li>
-    <li>Add multiple agents create a username and password for each agent, write it down in case you forget.</li>
+    <li>Add multiple agents, create a username and password for each agent, and write it down in case you forget.</li>
      <li>Make sure to select Access/Permissions/Teams for each agent.</li>
 
   ![image](https://github.com/cardosoguisilva/post-install-config/assets/157248613/15fe89c2-435b-48e1-9297-ed0da6c0a90d)
