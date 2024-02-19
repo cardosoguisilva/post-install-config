@@ -7,10 +7,6 @@ In this tutorial, I will be showing you the Post-Installation steps of osTicket.
 
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: osTicket Post-Installation Configuration](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 <ul>
